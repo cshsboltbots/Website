@@ -989,11 +989,6 @@ html {
   justify-content: flex-start;
 }
 
-.navbar-end {
-  width: 50%;
-  justify-content: flex-end;
-}
-
 .btn:active:hover,
   .btn:active:focus {
   -webkit-animation: none;
@@ -1420,11 +1415,12 @@ html {
   }
 }
 
-.menu-compact :where(li > *) {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.rounded-box {
+  border-radius: var(--rounded-box, 1rem);
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .h-5 {
@@ -1435,18 +1431,16 @@ html {
   width: 1.25rem;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.fill-current {
-  fill: currentColor;
+.w-56 {
+  width: 14rem;
 }
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
