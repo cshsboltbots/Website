@@ -12,7 +12,7 @@
         <!--Dropdown for Mobile Phones-->
         <div class="dropdown">
             <!--Dropdown Button-->
-            <label tabindex="0" class="btn btn-ghost">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
                 <!--Icon for Dropdown Button-->
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </label>
@@ -49,15 +49,46 @@
             </ul>
         </div>
         <!--Logo and Team Name-->
-        <a class="btn btn-ghost">
+        <a href="#" class="btn btn-ghost">
             <!--Add logo in future-->
             <!--Logo Image-->
             <!--Team Name-->
             2344A Bolt Bots
         </a>
     </div>
-    <div class="navbar-center">
-        <!---->
+    <!--Middle of Navbar on Desktop Screens-->
+    <div class="navbar-center hidden lg:flex">
+        <!--Menu-->
+        <ul class="menu menu-horizontal p-0">
+            <!--Home Page Link-->
+            <li><a href="#">Home</a></li>
+            <!--Who Are We? Page Link-->
+            <li><a href="#">Who Are We?</a></li>
+            <!--Our Community Page Link-->
+            <li><a href="#">Our Community</a></li>
+            <!--Compeition Highlights Dropdown Link-->
+            <li tabindex="0">
+                <!--Dropdown-->
+                <a>
+                    Compeition Highlights
+                    <!--Icon for Arrow-->
+                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+                </a>
+                <!--SubMenu List-->
+                <ul class="p-2 rounded-box menu menu-compact">
+                    <!--2022-2023 Season Page Link-->
+                    <li><a href="#">2022-2023 Season</a></li>
+                    <!--2021-2022 Season Page Link-->
+                    <li><a href="#">2021-2022 Season</a></li>
+                </ul>
+            </li>
+            <!--Team Members Page Link-->
+            <li><a href="#">Members</a></li>
+            <!--Contact Us Page Link-->
+            <li><a href="#">Contact Us</a></li>
+            <!--Applications Page Link-->
+            <li><a href="#">Applications</a></li>
+        </ul>
     </div>
 </div>
 
