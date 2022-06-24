@@ -989,6 +989,10 @@ html {
   justify-content: flex-start;
 }
 
+.navbar-center {
+  flex-shrink: 0;
+}
+
 .btn:active:hover,
   .btn:active:focus {
   -webkit-animation: none;
