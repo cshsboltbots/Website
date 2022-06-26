@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="103.9659mm"
+   height="85.569344mm"
+   version="1.1"
+   viewBox="0 0 148.5225 122.24175"
+   id="svg180"
+   sodipodi:docname="logo_no_stars.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs184" />
+  <sodipodi:namedview
+     id="namedview182"
+     pagecolor="#555555"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.73851712"
+     inkscape:cx="281.64547"
+     inkscape:cy="315.49709"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g168" />
+  <g
+     transform="translate(-31.421761,-43.77801)"
+     id="g178">
+    <g
+       id="g116">
+      <path
+         d="m 31.543,124.89 c 39.128,-21.32 127.35,-33.748 148.37,-66.113 -10.03,35.209 -76.219,53.287 -120.78,93.497 16.592,-20.937 49.995,-37.42 83.956,-60.275 -28.154,12.983 -65.336,18.543 -98.198,28.063 -4.6101,1.3355 -9.0232,3.0859 -13.341,4.8282 z"
+         fill="#000090"
+         stroke="#000090"
+         stroke-width="0.065"
+         id="path114" />
+    </g>
+    <path
+       d="m 121.54,43.849 -35.185,55.327 10.747,-0.0427 -9.7754,29.046 8.3021,0.0935 -11.272,37.675 36.108,-55.71 -11.492,0.60766 5.1502,-16.717 4.5561,-12.003 -8.3674,0.3638 z"
+       fill="#999999"
+       stroke="#999999"
+       stroke-width="0.26458px"
+       id="path118" />
+    <g
+       fill="#ffffff"
+       id="g168" />
+    <g
+       id="g176">
+      <path
+         d="m 110.76,112.65 16.058,-10.064 2.1384,3.1512 -16.446,9.6064 z"
+         fill="#000090"
+         stroke="#000090"
+         stroke-width="0.1"
+         id="path170" />
+      <path
+         d="m 85.97,128.68 c 7.8708,-5.7985 16.174,-11.093 24.792,-16.019 l 1.7506,2.6936 -25.242,15.503 z"
+         fill="#000090"
+         stroke="#000090"
+         stroke-width="0.1"
+         id="path172" />
+    </g>
+  </g>
+</svg>
