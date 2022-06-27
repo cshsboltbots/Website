@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .footer {
-    row-gap:0;
+    row-gap:.25rem;
 }
