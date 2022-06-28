@@ -1844,6 +1844,10 @@ html {
   margin: 0.5rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1908,6 +1912,10 @@ html {
 
 .w-40 {
   width: 10rem;
+}
+
+.w-3\/5 {
+  width: 60%;
 }
 
 .flex-grow {
@@ -2162,6 +2170,10 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2191,6 +2203,10 @@ html {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:grid-cols-3 {
