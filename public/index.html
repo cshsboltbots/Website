@@ -157,12 +157,35 @@
     </header>
 
     <!--Page Content-->
-    <main class="flex-auto -z-10">
-            <!--Video Background-->
-            <video class="h-screen w-screen object-cover overflow-hidden bg-fixed -mt-2 -mb-2" autoplay loop muted>
-                <source src="/assets/springs/springs.mp4" type="video/mp4">
-            </video>
-            <!--Stats Div-->
+    <main class="flex-auto text-center -z-10">
+        <!--Bolt Bots Text-->
+        <div class="absolute left-1/2 -translate-x-1/2 text-center bg-transparent top-24">
+            <h1 class="lg:text-8xl text-5xl font-semibold">
+                Bolt Bots
+            </h1>
+        </div>
+        <!--Stats-->
+        <div
+            class="stats absolute left-1/2 -translate-x-1/2 text-center stats-horizontal shadow shadow-accent bg-neutral bottom-4">
+            <!--Awards Stat-->
+            <div class="stat">
+                <div class="stat-title">Awards Won</div>
+                <div class="stat-value">1</div>
+                <div class="stat-desc">21-22</div>
+            </div>
+            <!--Team Members Stat-->
+            <div class="stat">
+                <div class="stat-title">Team Members</div>
+                <div class="stat-value">1</div>
+                <div class="stat-desc">21-22</div>
+            </div>
+        </div>
+        <!--Video Background-->
+        <video class="h-screen -z-10 w-screen object-cover overflow-hidden bg-fixed -mt-2 -mb-2" autoplay loop muted poster="assets/showcase/showcase.png">
+            <source src="/assets/showcase/showcase.mp4" type="video/mp4">
+        </video>
+
+
     </main>
 
     <!--Footer Tag-->
