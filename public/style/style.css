@@ -2015,6 +2015,14 @@ html {
   width: 50%;
 }
 
+.max-w-sm {
+  max-width: 24rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
