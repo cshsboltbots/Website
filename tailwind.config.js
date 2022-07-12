@@ -23,17 +23,6 @@ module.exports = {
 
           "error": "#DC3D32",
         },
-
-        extend: {
-          gridTemplateColumns: {
-            'auto-fit': 'repeat(auto-fit, minmax(0, 1fr))',
-            'auto-fill': 'repeat(auto-fit, minmax(0, 1fr))',
-          },
-          gridTemplateRows: {
-            'auto-fit': 'repeat(auto-fit, minmax(0, 1fr))',
-            'auto-fill': 'repeat(auto-fit, minmax(0, 1fr))',
-          }
-        }
       },
     ],
   },
