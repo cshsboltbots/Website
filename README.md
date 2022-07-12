@@ -11,3 +11,7 @@ A website for team 2344A (Bolt Bots) created with TailwindCSS and DaisyUI to rep
 ```cd public && python -m http.server 80```
 5. Visit it
 ```http://ip```
+
+
+## Build Command for Deployment
+```npx tailwindcss -i input.css -o /public/style/style.css --minify```
