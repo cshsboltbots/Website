@@ -1,5 +1,5 @@
-# New Website
-A website for team 2344A (Bolt Bots) created with TailwindCSS and DaisyUI to replace the current Google Sites website at www.cshsboltbots.org
+# Bolt Bots Website
+A website for team 2344A (Bolt Bots) created with TailwindCSS and DaisyUI to replace the current Google Sites. Located at www.cshsboltbots.org
 ## Steps
 1. Install the npm packages
 ```npm install -D tailwindcss && npm i daisyui```
@@ -16,4 +16,4 @@ A website for team 2344A (Bolt Bots) created with TailwindCSS and DaisyUI to rep
 ## Build Command for Deployment
 ```npx tailwindcss -i input.css -o /public/style/style.css --minify```
 
-TestTestTest
+# License
