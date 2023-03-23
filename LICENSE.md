@@ -1,6 +1,7 @@
 MIT License
 
 Copyright (c) 2023 Clear Springs High School Bolt Bots Team 2344A
+
 Copyright (c) David Corvaglia
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
