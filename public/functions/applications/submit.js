@@ -54,7 +54,7 @@ export async function sendEmails(input, env) {
         }),
     });
     const r = await fetch(send_request);
-    let send_request = new Request("https://api.mailchannels.net/tx/v1/send", {
+    let send_request2 = new Request("https://api.mailchannels.net/tx/v1/send", {
         "method": "POST",
         "headers": {
             "content-type": "application/json",
@@ -81,6 +81,6 @@ export async function sendEmails(input, env) {
             }],
         }),
     });
-    const r = await fetch(send_request);
-    return r;
+    const r2 = await fetch(send_request2);
+    return r2;
 }
