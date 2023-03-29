@@ -1,8 +1,9 @@
 export async function onRequestPost(context) {
   try {
     let input = await context.request.formData();
-    sendEmails(input);
-    return new Response('alert("Info Received");', { status: 200 });
+    let r = sendEmails(input);
+    let s = 'alert("' + r + '");'
+    return new Response(s, { status: 200 });
   } catch (err) {
     return new Response('alert("Invalid Submission");', { status: 400 });
   }
@@ -34,4 +35,7 @@ export async function sendEmails(input) {
             }],
         }),
     });
+    const r = await fetch(send_request);
+    const rt = await r.text();
+    return rt;
 }
