@@ -1,7 +1,7 @@
-export async function onRequestPost(context) {
+export async function onRequestPost(context,env) {
     try {
       let input = await context.request.formData();
-      const r = await sendEmails(input);
+      const r = await sendEmails(input,env);
       let s = 'alert("' + r + '");'
       return new Response(s, { status: 200 });
     } catch (err) {
@@ -9,7 +9,7 @@ export async function onRequestPost(context) {
     }
   }
 
-function sendEmails(input) {
+function sendEmails(input,env) {
       let send_request = new Request("https://api.mailchannels.net/tx/v1/send", {
           "method": "POST",
           "headers": {
