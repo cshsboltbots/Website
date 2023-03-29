@@ -17,7 +17,7 @@ export async function sendEmails(input) {
         "body": JSON.stringify({
             "personalizations": [{ 
                 "to": [ {"email": input.email,
-                          "name": input.name}],
+                          "name": input.fname + " " + input.lname}],
                 "dkim_domain": DKIM_DOMAIN,
                 "dkim_selector": DKIM_SELECTOR,
                 "dkim_private_key": DKIM_PRIVATE_KEY,
@@ -30,7 +30,7 @@ export async function sendEmails(input) {
             "subject": "Bolt Bots Application Received",
             "content": [{
                 "type": "text/plain",
-                "value": "Dear " + input.name + ",\n\nWe have received your application and are currently looking over it. We will try to get back to you asap.\n\nBest,\nThe Bolt Bots",
+                "value": "Dear " + input.fname + ",\n\nWe have received your application and are currently looking over it. We will try to get back to you asap.\n\nBest,\nThe Bolt Bots",
             }],
         }),
     });
