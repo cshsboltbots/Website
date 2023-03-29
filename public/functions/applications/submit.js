@@ -1,4 +1,4 @@
-export async function onRequestPost(context,env) {
+export async function onRequestPost(request,env,context) {
     try {
       let input = await context.request.formData();
       const r = await sendEmails(input,env);
