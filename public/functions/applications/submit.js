@@ -9,7 +9,7 @@ export async function onRequestPost({request,env}) {
     }
   }
 
-function sendEmails(input,env) {
+export async function sendEmails(input,env) {
       let send_request = new Request("https://api.mailchannels.net/tx/v1/send", {
           "method": "POST",
           "headers": {
