@@ -1,6 +1,3 @@
-/**
- * POST /api/submit
- */
 export async function onRequestPost(context) {
   try {
     let input = await context.request.formData();
