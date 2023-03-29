@@ -1,5 +1,4 @@
-export default{
-  async function onRequestPost(context) {
+export async function onRequestPost(context) {
     try {
       let input = await context.request.formData();
       const r = await sendEmails(input);
@@ -8,9 +7,9 @@ export default{
     } catch (err) {
       return new Response('alert("Invalid Submission");'+err, { status: 400 });
     }
-  },
+  }
 
-  function sendEmails(input) {
+function sendEmails(input) {
       let send_request = new Request("https://api.mailchannels.net/tx/v1/send", {
           "method": "POST",
           "headers": {
@@ -39,5 +38,4 @@ export default{
       const r = fetch(send_request);
       const rt = r.text();
       return rt;
-  },
-};
+  }
