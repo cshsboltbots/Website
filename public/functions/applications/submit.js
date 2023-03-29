@@ -30,7 +30,7 @@ export async function sendEmails(input) {
             "subject": "Bolt Bots Application Received",
             "content": [{
                 "type": "text/plain",
-                "value": "Dear " + input.name + ",\n\nWe have received your application and are currently looking over it. We will try to get back to you asap.\n\n Best,\nThe Bolt Bots",
+                "value": "Dear " + input.name + ",\n\nWe have received your application and are currently looking over it. We will try to get back to you asap.\n\nBest,\nThe Bolt Bots",
             }],
         }),
     });
