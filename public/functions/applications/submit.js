@@ -19,13 +19,13 @@ export function sendEmails(input) {
             "personalizations": [{ 
                 "to": [ {"email": input.email,
                           "name": input.fname + " " + input.lname}],
-                "dkim_domain": DKIM_DOMAIN,
-                "dkim_selector": DKIM_SELECTOR,
-                "dkim_private_key": DKIM_PRIVATE_KEY,
+                "dkim_domain": env.DKIM_DOMAIN,
+                "dkim_selector": env.DKIM_SELECTOR,
+                "dkim_private_key": env.DKIM_PRIVATE_KEY,
             }],
             "from": {
-                "email": SENDER,
-                "name": SENDER_NAME,
+                "email": env.SENDER,
+                "name": env.SENDER_NAME,
             },
 
             "subject": "Bolt Bots Application Received",
