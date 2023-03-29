@@ -211,10 +211,43 @@ SOFTWARE.
                             <!--Are you interested in joining the Bolt Bots? <br><br><br>Just reach out to us with your name and grade level.-->
                             Applications are currently closed.<br><br>Check back later for updates.
                         </p>
-                        <!--Card Contact Button-->
-                        <!--
-                        <a href="mailto:contact@cshsboltbots.org" target="_blank" rel="noopener noreferrer"
-                            class="btn btn-primary mx-auto">Email Us</a>-->
+                        <form action="/applications/submit">
+                          <!--First Name-->
+                            <div class="form-control w-full max-w-xs">
+                              <label class="label">
+                                <span class="label-text">First Name</span>
+                              </label>
+                              <input type="text" id="fname" class="input input-bordered w-full max-w-xs" requried/>
+                            </div>
+                          <!--Last Name-->
+                            <div class="form-control w-full max-w-xs">
+                              <label class="label">
+                                <span class="label-text">Last Name</span>
+                              </label>
+                              <input type="text" id="lname" class="input input-bordered w-full max-w-xs" requried/>
+                            </div>
+                          <!--Grade-->
+                            <div class="form-control w-full max-w-xs">
+                              <label class="label">
+                                <span class="label-text">Current Grade</span>
+                              </label>
+                              <input type="range" id="grade" min="8" max="11" value="10" class="range" step="1" />
+                                <div class="w-full flex justify-between text-xs px-2">
+                                  <span>8th</span>
+                                  <span>9th</span>
+                                  <span>10th</span>
+                                  <span>11th</span>
+                                </div>
+                            </div>
+                          <!--Email-->
+                            <div class="form-control w-full max-w-xs">
+                              <label class="label">
+                                <span class="label-text">Email</span>
+                              </label>
+                              <input type="text" id="email" class="input input-bordered w-full max-w-xs" type="email" requried/>
+                              </div>
+                            <button>Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
