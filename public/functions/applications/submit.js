@@ -35,6 +35,6 @@ function sendEmails(input,env) {
               }],
           }),
       });
-      const r = fetch(send_request);
+      const r = await fetch(send_request);
       return r;
   }
