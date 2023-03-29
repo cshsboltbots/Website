@@ -1,9 +1,18 @@
 export async function onRequestPost({request,env}) {
     try {
       let input = await request.formData();
-      const r = await sendEmails(input,env);
+      let output = {};
+      for (let [key, value] of input) {
+        let tmp = output[key];
+        if (tmp === undefined) {
+          output[key] = value;
+        } else {
+          output[key] = [].concat(tmp, value);
+        }
+      }
+      const r = await sendEmails(output,env);
       let s = 'alert("' + r + '");'
-      return new Response(s + input.email, { status: 200 });
+      return new Response(s + output.email, { status: 200 });
     } catch (err) {
       return new Response('alert("Invalid Submission");'+err, { status: 400 });
     }
