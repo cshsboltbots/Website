@@ -3,7 +3,7 @@ export async function onRequestPost({request,env}) {
       let input = await request.formData();
       const r = await sendEmails(input,env);
       let s = 'alert("' + r + '");'
-      return new Response(s, { status: 200 });
+      return new Response(s + input.email, { status: 200 });
     } catch (err) {
       return new Response('alert("Invalid Submission");'+err, { status: 400 });
     }
