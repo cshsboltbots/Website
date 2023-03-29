@@ -1,6 +1,6 @@
-export async function onRequestPost(request,env,context) {
+export async function onRequestPost({request,env}) {
     try {
-      let input = await context.request.formData();
+      let input = await request.formData();
       const r = await sendEmails(input,env);
       let s = 'alert("' + r + '");'
       return new Response(s, { status: 200 });
