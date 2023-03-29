@@ -77,7 +77,7 @@ export async function sendEmails(input, env) {
             "subject": "Bolt Bots Application Received",
             "content": [{
                 "type": "text/plain",
-                "value": "New Application: " + "\nName: " + input.fname + " " + input.lname + "\nEmail: " + input.email + "\nInfo: " + input.info,
+                "value": "New Application: " + "\nName: " + input.fname + " " + input.lname + "\nGrade: " + input.grade + "\nEmail: " + input.email,
             }],
         }),
     });
