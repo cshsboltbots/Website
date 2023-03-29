@@ -5,7 +5,7 @@ export async function onRequestPost(context) {
     let s = 'alert("' + r + '");'
     return new Response(s, { status: 200 });
   } catch (err) {
-    return new Response('alert("Invalid Submission");', { status: 400 });
+    return new Response('alert("Invalid Submission");'+err, { status: 400 });
   }
 }
 
